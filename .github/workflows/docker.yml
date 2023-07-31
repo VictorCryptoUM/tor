@@ -1,0 +1,16 @@
+name: Docker Tests
+on:
+  push:
+      branches:
+      - "*"
+      paths-ignore:
+      - README.md
+defaults:
+    run:
+        working-directory: .
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: make docker_ci
