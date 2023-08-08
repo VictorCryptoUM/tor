@@ -6,5 +6,6 @@ services:
       - "9001:9001" # relay
       - "9030:9030" # directory
     volumes:
-      - ./tor-data:/var/lib/tor:rw
-      - ./tor-log:/var/log/tor:rw
+      # make sure the host directories are owned by user tor
+      - ../tor-data:/var/lib/tor:rw
+      - ../tor-log:/var/log/tor:rw
