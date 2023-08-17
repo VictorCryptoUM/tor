@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  tor:
+    build: .
+    ports:
+      - "9001:9001" # relay
+      - "9030:9030" # directory
+    volumes:
+      - ../tor-data:/var/lib/tor
+      - ../tor-log:/var/log/tor
