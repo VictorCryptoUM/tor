@@ -10,4 +10,4 @@ Our faculty advisors are Prof. Paul Grubbs & Prof. J. Alex Halderman.
 
 ## Other Deployments
 
-If you would like to deploy your own Tor node based on our configuration, please fork this library and modify the configuration files as needed.
+If you would like to deploy your own Tor node based on our configuration, please fork this repository and modify the configuration files as needed.
