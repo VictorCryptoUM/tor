@@ -4,7 +4,7 @@ This is the repository for the [University of Michigan](https://umich.edu/) Tor 
 
 The node is managed by the [VictorCrypto](https://victorcrypto.org/) student organization.
 
-Please contact us at `victorcrypto [@] umich.edu` to report any concerns.
+Please contact us at `tor-admin [@] umich.edu` to report any concerns.
 
 Our faculty advisors are Prof. Paul Grubbs & Prof. J. Alex Halderman.
 
